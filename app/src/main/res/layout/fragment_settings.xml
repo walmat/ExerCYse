@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <import type="pasta.streamer.utils.PreferenceUtils" />
+    </data>
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/bottom_playbar_padding"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Pasta"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/preload"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:checked="@{PreferenceUtils.isPreload(context)}"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="16dp"
+                    android:text="Preload Search Results"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/thumbnails"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:checked="@{PreferenceUtils.isThumbnails(context)}"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="16dp"
+                    android:text="Load Thumbnails"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/limit"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical|start"
+                    android:padding="8dp"
+                    android:text="Search Result Limit"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/debug"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:checked="@{PreferenceUtils.isDebug(context)}"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="16dp"
+                    android:text="Debug Messages"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/signout"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical|start"
+                    android:padding="8dp"
+                    android:text="Sign Out"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Playback"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/quality"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical|start"
+                    android:padding="8dp"
+                    android:text="Audio Quality"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/organize"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical|start"
+                    android:padding="8dp"
+                    android:text="Track Order"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</layout>

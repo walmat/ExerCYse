@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="buttons-0.0.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/ec52d28fff4d27d463b8abe99dd427e6a006b5d4/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ec52d28fff4d27d463b8abe99dd427e6a006b5d4/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/james.buttons/buttons/0.0.3/6f30c996bc0534be609474016526d04554ad0431/buttons-0.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

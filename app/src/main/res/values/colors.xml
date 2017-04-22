@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    //pasta colors
+    <color name="colorBackgroundLight">#FAFAFA</color>
+    <color name="colorBackgroundDark">#212121</color>
+    <color name="colorBackgroundFloatingLight">#FFFFFF</color>
+    <color name="colorBackgroundFloatingDark">#424242</color>
+
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="textColorSecondary">#B3ffffff</color>
+    <color name="textColorTertiary">#80FFFFFF</color>
+    <color name="textColorPrimaryInverse">#DE000000</color>
+    <color name="textColorSecondaryInverse">#8A000000</color>
+    <color name="textColorTertiaryInverse">#26000000</color>
+
+
+    //isu primary palette
+    <color name="cycloneRed">#c8102e</color>
+    <color name="cycloneGold">#f1be48</color>
+    <color name="grey">#CAC7A7</color>
+    <color name="weirdColor1">#524727</color>
+    <color name="weirdColor2">#9B945F</color>
+
+    //secondary palette
+    <color name="greenNice">#76881D</color>
+    <color name="greenDark">#3E4827</color>
+    <color name="blue">#006BA6</color>
+    <color name="tan">#EED484</color>
+    <color name="darkRed">#7c2529</color>
+    //there are more but I don't feel like adding them rn
+
+    <color name="dpnamecolor">#fff</color>
+    <color name="weekcolor">#fff</color>
+    <color name="agendacolor">#8E9097</color>
+    <color name="timecolor">#000</color>
+    <color name="schedulecolor">#000</color>
+    <color name="statementcolor">#778AA6</color>
+
+</resources>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="spotify-player-1.0.0-beta12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/a520c4908afc174d56103d6b7541f72939a47d1d/output/jars/libs/jnihelpers-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/a520c4908afc174d56103d6b7541f72939a47d1d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a520c4908afc174d56103d6b7541f72939a47d1d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
